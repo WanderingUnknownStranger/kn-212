@@ -432,3 +432,32 @@ footer
         flex-wrap: nowrap;
     }
 }
+.about-table
+{
+    text-align: center;
+    margin-top: 115px;
+    color: #191919;
+    text-align: center;
+    border-spacing: 5px;
+    background: #E1E3E0;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.cern-event
+{
+    color:red;
+}
+.registration-form
+{
+    color: #191919;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #E1E3E0;
+}
+.events-label
+{
+    color: #191919;
+    text-align: center;
+}
