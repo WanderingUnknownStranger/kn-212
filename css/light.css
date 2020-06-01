@@ -1,0 +1,295 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+body
+{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: sans-regular;
+}
+.cern-logo
+{
+    width: 5em;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+@font-face{
+    font-family: sans-regular;
+    src: url(/fonts/regular.woff2);
+}
+@font-face{
+    font-family: sans-bold;
+    src: url(/fonts/bold.woff2);
+}
+main{
+    margin-top: 85px;
+    width: 100%;
+}
+.main-navigation
+{
+    position: fixed;
+    top: 0;
+    min-width: 320px;
+    width: 100%;
+    min-height: 75px;
+    background-color: #191919;
+}
+.nav-list{
+    float: right;
+    padding: 15px;
+}
+.login-button
+{
+    background-color: #191919;
+    border: none;
+    color: white;
+    text-decoration: none;
+
+}
+.about-button
+{
+    color: white;
+    text-decoration: none;
+}
+.universe
+{
+    margin-top: 95px;
+    background: url(/images/_DSC5826.jpg) no-repeat scroll center;
+    background-size: cover;
+    color: white;    
+    min-height: 400px;
+}
+.universe-title
+{
+    font-family: sans-bold;
+    letter-spacing: 0.052em;
+    font-style: normal;
+    -webkit-text-stroke: 1px black;
+    font-size: 3em;
+    padding: 15px;
+}
+
+.universe-description
+{
+    font-family: sans-regular;
+    font-size: 2em;
+    -webkit-text-stroke: 1px black;
+    padding: 15px;
+}
+.explore
+{
+    background-color:rgba(28,44,56,1);
+    height: 100%;
+    width: 100%;
+    position: static;
+    margin-top: -37px;
+}
+.explore-title
+{
+    font-family: sans-bold;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 3em;
+}
+.explore-list
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    list-style: none;
+    padding-bottom: 30px;
+}
+.explore1
+{
+    max-width: 33.333%;
+    max-height: 100%;
+    min-width: 300px;
+    min-height: 350px;
+    background: url(/images/explore1.jpg) no-repeat;
+    font-size: 2em;
+    -webkit-text-stroke: 1px black;
+    padding: 15px;
+}
+.explore2
+{
+    max-width: 33.333%;
+    max-height: 100%;
+    min-width: 300px;
+    min-height: 350px;
+    background: url(/images/explore2.jpg) no-repeat;
+    font-size: 2em;
+    -webkit-text-stroke: 1px black;
+    padding: 15px;
+}
+.explore3
+{
+    max-width: 33.333%;
+    max-height: 100%;
+    min-width: 300px;
+    min-height: 350px;
+    background: url(/images/explore3.jpg) no-repeat;
+    font-size: 2em;
+    -webkit-text-stroke: 1px black;
+    padding: 15px;
+}
+.achievements
+{
+    background-color:rgba(28,44,56,1);
+    height: 100%;
+    width: 100%;
+    position: static;
+    margin-top: -37px;
+}
+.achievements-title
+{
+    font-family: sans-bold;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 3em;
+}
+.achievements-list
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-bottom: 30px;
+}
+.ach1
+{
+    max-width: 33.333%;
+    max-height: 100%;
+    min-width: 300px;
+    min-height: 350px;
+    background: url(/images/boson.jpg) no-repeat;
+    font-size: 2em;
+    -webkit-text-stroke: 1px black;
+    padding: 15px;
+}
+.ach2
+{
+    max-width: 33.333%;
+    max-height: 100%;
+    min-width: 300px;
+    min-height: 350px;
+    background: url(/images/lhc.jpg) no-repeat;
+    font-size: 2em;
+    -webkit-text-stroke: 1px black;
+    padding: 15px;
+}
+.ach3
+{
+    max-width: 33.333%;
+    max-height: 100%;
+    min-width: 300px;
+    min-height: 350px;
+    background: url(/images/antimat.jpg) no-repeat;
+    font-size: 2em;
+    -webkit-text-stroke: 1px black;
+    padding: 15px;
+}
+footer
+{
+    background: #191919;
+    padding-left: 15px;
+}
+.dirac-box
+{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+}
+.dirac-box img
+{
+    width: 30%;
+    min-width: 300px;
+    max-height: 500px;
+}
+.dirac-text
+{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.lhc-head
+{
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+    background-image: url(/images/lhc-background.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+.lhc-box
+{
+    color: #191919;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 15px;
+}
+.lhc-box1
+{
+    width: 100%;
+}
+.lhc-box2
+{
+    width: 40%;
+}
+.lhc-box3
+{
+    width: 50%;
+    padding-left: 1%;
+}
+.lhc-box4
+{
+    width: 49%;
+    padding-right: 1%;
+}
+
+.lhc-box5
+{
+    width: 50%;
+}
+@media(max-width: 897px)
+{
+    .dirac-box{
+        flex-direction: column;
+    }
+    .lhc-box{
+        flex-direction: column;
+    }
+}
+@media(max-width:992px)
+{
+    .explore-list
+    {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .achievements-list
+    {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+/*@media(max-width:767px)
+{
+    body{
+        max-width: none;
+    }
+}*/
