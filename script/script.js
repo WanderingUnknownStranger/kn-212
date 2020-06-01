@@ -21,3 +21,5 @@ function getInfo(){
 let lbl = document.querySelector(".events-label");
 lbl.addEventListener('mouseover', function(){lbl.classList.add('lbl')});
 lbl.addEventListener('mouseout', function(){lbl.classList.remove('lbl')});
+
+//
