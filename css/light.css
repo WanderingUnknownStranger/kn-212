@@ -48,11 +48,7 @@ main{
     text-decoration: none;
 
 }
-.about-button
-{
-    color: white;
-    text-decoration: none;
-}
+
 .universe
 {
     margin-top: 95px;
@@ -108,7 +104,6 @@ main{
 {
     max-width: 33.333%;
     max-height: 100%;
-    min-width: 300px;
     min-height: 350px;
     background: url(/images/explore1.jpg) no-repeat;
     font-size: 2em;
@@ -119,7 +114,6 @@ main{
 {
     max-width: 33.333%;
     max-height: 100%;
-    min-width: 300px;
     min-height: 350px;
     background: url(/images/explore2.jpg) no-repeat;
     font-size: 2em;
@@ -130,7 +124,7 @@ main{
 {
     max-width: 33.333%;
     max-height: 100%;
-    min-width: 300px;
+    min-width: 350px;
     min-height: 350px;
     background: url(/images/explore3.jpg) no-repeat;
     font-size: 2em;
@@ -265,28 +259,7 @@ footer
 {
     width: 50%;
 }
-@media(max-width: 897px)
-{
-    .dirac-box{
-        flex-direction: column;
-    }
-    .lhc-box{
-        flex-direction: column;
-    }
-}
-@media(max-width:992px)
-{
-    .explore-list
-    {
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-    .achievements-list
-    {
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-}
+
 .boson-head
 {
     color: white;
@@ -321,4 +294,105 @@ footer
 {
     width: 50%;
     margin: 5%;
+}
+@media(max-width: 897px)
+{
+    .dirac-box{
+        flex-direction: column;
+    }
+    .lhc-box{
+        flex-direction: column;
+    }
+    .lhc-box2
+    {
+        width: 100%;
+    }
+    .lhc-box3
+    {
+        width: 100%;
+    }
+    .lhc-box4
+    {
+        width: 100%;
+    }
+    .lhc-box5
+    {
+        width: 100%;
+    }
+    .boson-box{
+        flex-direction: column;
+    }
+    .boson-box1
+{
+    width: 100%;
+    margin: 0%;
+}
+    .boson-box2
+{
+    width: 100%;
+    margin: 0%;
+}
+    .boson-box3
+{
+    width: 100%;
+    margin: 0%;
+}
+    .boson-box4
+{
+    width: 100%;
+    margin: 0%;
+}
+    .universe-title
+    {
+        padding: 0%;
+    }
+    .explore1
+    {
+        padding: 0%;
+        min-width: 200px;
+        min-height: 280px;
+    }
+    .explore2
+    {
+        padding: 0%;
+        min-width: 200px;
+        min-height: 280px;
+    }
+    .explore3
+    {
+        padding: 0%;
+        min-width: 200px;
+        min-height: 280px;
+    }
+    .ach1
+    {
+        padding: 0%;
+        min-width: 200px;
+        min-height: 280px;
+    }
+    .ach2
+    {
+        padding: 0%;
+        min-width: 200px;
+        min-height: 280px;
+    }
+    .ach3
+    {
+        padding: 0%;
+        min-width: 200px;
+        min-height: 280px;
+    }
+}
+@media(max-width:992px)
+{
+    .explore-list
+    {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .achievements-list
+    {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 }
