@@ -1,0 +1,483 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+body
+{
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    font-family: sans-regular;
+    background-color: grey;
+}
+.nav-list
+{
+    position: relative;
+    display: inline-block;
+}
+.menu-button
+{
+    background-color: #191919;
+    color: white;
+    border: none;
+}
+.dropdown
+{
+    display: none;
+    position: absolute;
+    background-color: #191919;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.dropdown button {
+    color: white;
+    text-decoration: none;
+    display: block;
+    background-color: #191919;
+    border: none;
+}
+.nav-list:hover .dropdown {
+    display: block;
+}
+.cern-logo
+{
+    width: 5em;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: right;
+}
+@font-face{
+    font-family: sans-regular;
+    src: url(/fonts/regular.woff2);
+}
+@font-face{
+    font-family: sans-bold;
+    src: url(/fonts/bold.woff2);
+}
+main{
+    margin-top: 85px;
+    width: 100%;
+}
+.main-navigation
+{
+    position: fixed;
+    top: 0;
+    min-width: 320px;
+    width: 100%;
+    min-height: 75px;
+    background-color: #191919;
+}
+.nav-list{
+    float: left;
+    padding: 15px;
+    display: flex;
+    list-style: none;
+}
+.login-button
+{
+    background-color: #191919;
+    border: none;
+    color: white;
+    text-decoration: none;
+
+}
+
+.universe
+{
+    margin-top: 95px;
+    background: url(/images/_DSC5826.jpg) no-repeat scroll center;
+    background-size: cover;
+    color: black;    
+    min-height: 400px;
+}
+.universe-title
+{
+    font-family: sans-bold;
+    letter-spacing: 0.052em;
+    font-style: normal;
+    -webkit-text-stroke: 1px white;
+    font-size: 3em;
+    padding: 15px;
+}
+
+.universe-description
+{
+    font-family: sans-regular;
+    font-size: 2em;
+    -webkit-text-stroke: 1px white;
+    padding: 15px;
+}
+.explore
+{
+    background-color:rgba(28,44,56,1);
+    height: 100%;
+    width: 100%;
+    position: static;
+    margin-top: -37px;
+}
+.explore-title
+{
+    font-family: sans-bold;
+    color: black;
+    display: block;
+    text-align: center;
+    -webkit-text-stroke: 1px white;
+    font-size: 3em;
+}
+.explore-list
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    list-style: none;
+    padding-bottom: 30px;
+}
+.explore1
+{
+    max-width: 33.333%;
+    max-height: 100%;
+    min-height: 350px;
+    background: url(/images/explore1.jpg) no-repeat;
+    font-size: 2em;
+    -webkit-text-stroke: 1px white;
+    padding: 15px;
+}
+.explore2
+{
+    max-width: 33.333%;
+    max-height: 100%;
+    min-height: 350px;
+    background: url(/images/explore2.jpg) no-repeat;
+    font-size: 2em;
+    -webkit-text-stroke: 1px white;
+    padding: 15px;
+}
+.explore3
+{
+    max-width: 33.333%;
+    max-height: 100%;
+    min-width: 350px;
+    min-height: 350px;
+    background: url(/images/explore3.jpg) no-repeat;
+    font-size: 2em;
+    -webkit-text-stroke: 1px white;
+    padding: 15px;
+}
+.achievements
+{
+    background-color:rgba(28,44,56,1);
+    height: 100%;
+    width: 100%;
+    position: static;
+    margin-top: -37px;
+}
+.achievements-title
+{
+    font-family: sans-bold;
+    color: black;
+    -webkit-text-stroke: 1px white;
+    display: block;
+    text-align: center;
+    font-size: 3em;
+}
+.achievements-list
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-bottom: 30px;
+}
+.ach1
+{
+    max-width: 33.333%;
+    max-height: 100%;
+    min-width: 300px;
+    min-height: 350px;
+    background: url(/images/boson.jpg) no-repeat;
+    font-size: 2em;
+    color: black;
+    -webkit-text-stroke: 1px white;
+    padding: 15px;
+}
+.ach2
+{
+    max-width: 33.333%;
+    max-height: 100%;
+    min-width: 300px;
+    min-height: 350px;
+    background: url(/images/lhc.jpg) no-repeat;
+    font-size: 2em;
+    -webkit-text-stroke: 1px white;
+    padding: 15px;
+    color: black;
+}
+.ach3
+{
+    max-width: 33.333%;
+    max-height: 100%;
+    min-width: 300px;
+    min-height: 350px;
+    background: url(/images/antimat.jpg) no-repeat;
+    font-size: 2em;
+    -webkit-text-stroke: 1px white;
+    padding: 15px;
+    color: black;
+}
+footer
+{
+    background: #191919;
+    padding-left: 15px;
+    color:white;
+}
+.dirac-box
+{
+    color: black;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+}
+.dirac-box img
+{
+    width: 30%;
+    min-width: 300px;
+    max-height: 500px;
+}
+.dirac-text
+{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.lhc-head
+{
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+    background-image: url(/images/lhc-background.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+.lhc-box
+{
+    color: black;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 15px;
+}
+.lhc-box1
+{
+    width: 100%;
+}
+.lhc-box2
+{
+    width: 40%;
+}
+.lhc-box3
+{
+    width: 50%;
+    padding-left: 1%;
+}
+.lhc-box4
+{
+    width: 49%;
+    padding-right: 1%;
+}
+
+.lhc-box5
+{
+    width: 50%;
+}
+
+.boson-head
+{
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+    background-image: url(/images/lhc-background.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+.boson-box
+{
+    color: #191919;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.boson-box1
+{
+    width: 50%;
+    margin: 5%;
+}
+.boson-box2
+{
+    width: 40%;
+}
+.boson-box3
+{
+    width: 40%;
+}
+.boson-box4
+{
+    width: 50%;
+    margin: 5%;
+}
+
+.about-table
+{
+    margin-top: 115px;
+    color: #191919;
+    text-align: center;
+    border-spacing: 5px;
+    background: #E1E3E0;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.cern-event
+{
+    color:red;
+}
+.registration-form
+{
+    color: #191919;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #E1E3E0;
+}
+.events-label
+{
+    color: #191919;
+    text-align: center;
+}
+@media(max-width: 897px)
+{
+    .dirac-box{
+        flex-direction: column;
+    }
+    .lhc-box{
+        flex-direction: column;
+    }
+    .lhc-box2
+    {
+        width: 100%;
+    }
+    .lhc-box3
+    {
+        width: 100%;
+    }
+    .lhc-box4
+    {
+        width: 100%;
+    }
+    .lhc-box5
+    {
+        width: 100%;
+    }
+    .boson-box{
+        flex-direction: column;
+    }
+    .boson-box1
+{
+    width: 100%;
+    margin: 0%;
+}
+    .boson-box2
+{
+    width: 100%;
+    margin: 0%;
+}
+    .boson-box3
+{
+    width: 100%;
+    margin: 0%;
+}
+    .boson-box4
+{
+    width: 100%;
+    margin: 0%;
+}
+    .universe-title
+    {
+        padding: 0%;
+    }
+    .explore1
+    {
+        padding: 0%;
+        min-width: 200px;
+        min-height: 280px;
+    }
+    .explore2
+    {
+        padding: 0%;
+        min-width: 200px;
+        min-height: 280px;
+    }
+    .explore3
+    {
+        padding: 0%;
+        min-width: 200px;
+        min-height: 280px;
+    }
+    .ach1
+    {
+        padding: 0%;
+        min-width: 200px;
+        min-height: 280px;
+    }
+    .ach2
+    {
+        padding: 0%;
+        min-width: 200px;
+        min-height: 280px;
+    }
+    .ach3
+    {
+        padding: 0%;
+        min-width: 200px;
+        min-height: 280px;
+    }
+    .about-table
+    {
+        margin-left: 0%;
+        width: 50%;
+    }
+    
+}
+@media(max-width:992px)
+{
+    .explore-list
+    {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .achievements-list
+    {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+.lbl
+{
+    color:red;
+}
