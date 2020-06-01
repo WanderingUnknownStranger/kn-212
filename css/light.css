@@ -331,6 +331,39 @@ footer
     width: 50%;
     margin: 5%;
 }
+
+.about-table
+{
+    margin-top: 115px;
+    color: #191919;
+    text-align: center;
+    border-spacing: 5px;
+    background: #E1E3E0;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.cern-event
+{
+    color:red;
+}
+.registration-form
+{
+    color: #191919;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #E1E3E0;
+}
+.events-label
+{
+    color: #191919;
+    text-align: center;
+}
+.submit-button
+{
+    
+}
 @media(max-width: 897px)
 {
     .dirac-box{
@@ -418,6 +451,12 @@ footer
         min-width: 200px;
         min-height: 280px;
     }
+    .about-table
+    {
+        margin-left: 0%;
+        width: 50%;
+    }
+    
 }
 @media(max-width:992px)
 {
@@ -431,33 +470,4 @@ footer
         flex-direction: column;
         flex-wrap: nowrap;
     }
-}
-.about-table
-{
-    text-align: center;
-    margin-top: 115px;
-    color: #191919;
-    text-align: center;
-    border-spacing: 5px;
-    background: #E1E3E0;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-.cern-event
-{
-    color:red;
-}
-.registration-form
-{
-    color: #191919;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    background-color: #E1E3E0;
-}
-.events-label
-{
-    color: #191919;
-    text-align: center;
 }
